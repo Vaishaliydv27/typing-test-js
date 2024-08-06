@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Typing Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+      Typing Speed Test
+    </header>
+    <main>
+      <h4>
+        Start typing to measure your typing speed.
+      </h4>
+      <p>
+        You can click on virtual keyboard as well to type. It only contains small letters and numbers
+      </p>
+      <div id="text-box">
+        <div id="text"></div>
+      </div>
+      <div id="virtual-keyboard">
+        <div class="row">
+          <button id="1" class="key">1</button>
+          <button id="2" class="key">2</button>
+          <button id="3" class="key">3</button>
+          <button id="4" class="key">4</button>
+          <button id="5" class="key">5</button>
+          <button id="6" class="key">6</button>
+          <button id="7" class="key">7</button>
+          <button id="8" class="key">8</button>
+          <button id="9" class="key">9</button>
+          <button id="0" class="key">0</button>
+        </div>
+        <div class="row">
+          <button id="q" class="key">q</button>
+          <button id="w" class="key">w</button>
+          <button id="e" class="key">e</button>
+          <button id="r" class="key">r</button>
+          <button id="t" class="key">t</button>
+          <button id="y" class="key">y</button>
+          <button id="u" class="key">u</button>
+          <button id="i" class="key">i</button>
+          <button id="o" class="key">o</button>
+          <button id="p" class="key">p</button>
+        </div>
+        <div class="row">
+          <button id="a" class="key">a</button>
+          <button id="s" class="key">s</button>
+          <button id="d" class="key">d</button>
+          <button id="f" class="key">f</button>
+          <button id="g" class="key">g</button>
+          <button id="h" class="key">h</button>
+          <button id="j" class="key">j</button>
+          <button id="k" class="key">k</button>
+          <button id="l" class="key">l</button>
+        </div>
+        <div class="row">
+          <button id="z" class="key">z</button>
+          <button id="x" class="key">x</button>
+          <button id="c" class="key">c</button>
+          <button id="v" class="key">v</button>
+          <button id="b" class="key">b</button>
+          <button id="n" class="key">n</button>
+          <button id="m" class="key">m</button>
+        </div>
+      <div id="timer">
+        <span id="time">60</span> seconds
+      </div>
+      <div id="result"></div>
+      <button id="reset" onclick="init()">Reset</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
